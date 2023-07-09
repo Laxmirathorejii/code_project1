@@ -1,0 +1,263 @@
+*{
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing: border-box;
+
+
+}
+body{
+   size: 600px;
+   background-color: rgb(15, 15, 15);
+  color:white; 
+}
+nav {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:1px;
+  padding: 0 5%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 60px;
+  font-weight: 500px;
+}
+main{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.main{
+  position: relative;
+}
+.headphone{
+  
+   margin-right: 100px;
+   position:relative;
+  bottom: 180px;
+  width:200px
+}
+.onear{
+   margin-left: 80px;
+  width:285px;
+  position: relative;
+  bottom:55px;
+  
+}
+.main h1{ 
+  position:relative;
+  margin-bottom: 25px;
+}
+.main h5{
+  margin-bottom: 25px;
+}
+.main p{
+  margin-bottom: 25px;
+}
+.shopingBaag{
+  border: 2px solid rgb(113, 111, 111);
+  justify-content:center ;
+}
+.social-media-section{
+  display: flex;
+  margin-right: 55px ;
+  margin-left: 55px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400px;
+  font-size: medium;
+}
+.specs{
+   padding:65px;
+    margin-left: 300px;
+   width:300px;
+   position: relative;
+   bottom:25px;
+}
+.specification{
+  position: relative;
+}
+.earpot{
+  
+    padding:35px;
+     margin-left: 300px;
+    width:300px;
+    position: relative;
+    bottom:250px;
+}
+.bluethooth{
+  margin-left:55px;
+}
+.microphone{
+  margin-left:55px;
+}
+.case{
+  padding: 15px;
+   margin-left: 300px;
+  width:300px;
+  position: relative;
+  bottom:200px;
+}
+.Casesection{
+  display: flex;
+  flex-direction: column;
+   
+}
+.case1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.buyimg{
+  padding: 20px;
+   margin-left: 350px;
+  width:250px;
+  position: relative;
+  bottom:10px;
+}
+.buyproduct{
+  display: flex;
+  flex-direction: column;
+}
+   
+.section h3
+  {  padding: 15px;
+    margin-right: 300px;
+   width:300px;
+   position: relative;
+   bottom:170px;
+}
+.section p{
+  padding: 10px;
+    margin-right: 300px;
+   width:300px;
+   position: relative;
+   bottom:170px;
+}
+.section1{
+  padding: 10px;
+    margin-right: 300px;
+   
+   position: relative;
+   bottom:170px;
+}
+.section1 {
+  
+  margin-right: 30px;
+ 
+ 
+ bottom:250px;
+}
+
+
+
+.buyimg1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:10px;
+}
+
+ 
+.product{
+  
+  padding:45px;
+  margin-left: 100px;
+ width:280px;
+ position: relative;
+ bottom:5px;
+}
+.product-cards{
+    
+    padding:0px;
+    margin-left:200px;
+    position:relative;
+   bottom: 60px;
+   width:50px
+
+}
+.black{
+  margin-left:100;
+  bottom:60px;
+  width:90px;
+}
+.product-card2{
+  
+  padding:0px;
+  margin-left:400px;
+  position:relative;
+ bottom: 240px;
+ width:50px;
+}
+.redblack{
+  margin-left:100;
+  bottom:60px;
+  width:90px;
+}
+.product-card3{
+  
+  padding:0px;
+  margin-left:200px;
+  position:relative;
+ bottom: 230px;
+ width:50px;
+}
+.nightblack{
+  margin-left:100;
+  bottom:80px;
+  width:90px;
+}
+.product-card4{
+  
+  padding:0px;
+  margin-left:400px;
+  position:relative;
+ bottom: 430px;
+ width:50px;
+}
+.blue{
+  margin-left:100;
+  bottom:80px;
+  width:90px;
+}
+.product-card5{
+  
+  padding:0px;
+  margin-left:200px;
+  position:relative;
+ bottom: 430px;
+ width:50px;
+}
+.black{
+  margin-left:100;
+  bottom:80px;
+  width:90px;
+}
+
+footer{
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:10px;
+
+  padding: 5%;
+}
+
+.subscribe-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
