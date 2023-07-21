@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changeThecolorClick</title>
+</head>
+<body>
+    <button onclick="randomcolor()">press me to change</button>
+    <style>
+        body{
+            height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+    }
+    button{
+        
+        
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 25px;
+        padding:16px;
+        background-color: aquamarine;
+    }
+    </style>
+    <script>
+        function randomcolor(){
+            const colorarray = ["red","green","blue","yellow","orange","purple"];
+            document.body.style.backgroundColor = colorarray[Math.floor(Math.random() * colorarray.length)];
+        }
+    </script>
+</body>
+</html>
